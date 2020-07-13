@@ -22,7 +22,6 @@ func TestFindMedianSortedArrays(t *testing.T) {
 		if median != tt.median {
 			t.Errorf("got %v for input %v, %v; expected %v", median, tt.nums1, tt.nums2, tt.median)
 		}
-
 	}
 }
 
@@ -44,6 +43,5 @@ func TestFindMedianSortedArrays2(t *testing.T) {
 		if median != tt.median {
 			t.Errorf("got %v for input %v, %v; expected %v", median, tt.nums1, tt.nums2, tt.median)
 		}
-
 	}
 }
